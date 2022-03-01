@@ -9,28 +9,28 @@ using System.Windows.Media;
 
 namespace GUIWS4.Converters
 {
-        internal class NumberToColorConverter : IValueConverter
+    internal class NumberToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+            double number = double.Parse(value.ToString());
+            if (number <= 3)
             {
-                double number = double.Parse(value.ToString());
-                if (number <= 3)
-                {
-                    return Brushes.Red;
-                }
-                else if (number <= 7)
-                {
-                    return Brushes.Yellow;
-                }
-                else
-                {
-                    return Brushes.Green;
-                }
+                return Brushes.Red;
             }
-
-            public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            else if (number <= 7)
             {
-                return Binding.DoNothing;
+                return Brushes.Yellow;
+            }
+            else
+            {
+                return Brushes.Green;
             }
         }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return Binding.DoNothing;
+        }
+    }
 }

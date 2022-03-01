@@ -8,6 +8,6 @@ namespace GUIWS4.Models
 {
     public enum  SuperHeroType
     {
-        Good,Evil, Netural
+        Good, Evil, Netural
     }
 }

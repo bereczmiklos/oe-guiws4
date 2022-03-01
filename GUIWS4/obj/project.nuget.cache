@@ -1,10 +1,16 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uZKzy27mpxOF4yuhAM3Vp5/fLfZ2/NmlAxR0yW9RVgdkTZFPgd5zQw4yPZ0wbZZ39S4vZrrkadC+pfCOkqzwbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
+=======
+  "dgSpecHash": "2F1SR3XxLx760EhtnWfEXqQAq+qwnNzMKJ/B7YAaBWDxLrACIvtDSvbFI4elJ6QPrrVabiU/RlN9CoLsplcDPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
+>>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
   "expectedPackageFiles": [
-    "C:\\Users\\IBT\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
+    "C:\\Users\\hallgato\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
   ],
   "logs": []
 }

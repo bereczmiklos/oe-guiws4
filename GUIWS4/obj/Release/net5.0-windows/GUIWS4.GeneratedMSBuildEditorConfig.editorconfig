@@ -3,8 +3,16 @@ build_property.TargetFramework = net5.0-windows
 build_property.TargetPlatformMinVersion = 7.0
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
+<<<<<<< HEAD
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GUIWS4
 build_property.ProjectDir = C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\
+=======
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = GUIWS4
+build_property.ProjectDir = C:\Users\hallgato\Source\Repos\oe-guiws4\GUIWS4\
+>>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
