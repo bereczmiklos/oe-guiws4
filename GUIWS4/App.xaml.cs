@@ -13,5 +13,6 @@ namespace GUIWS4
     /// </summary>
     public partial class App : Application
     {
+
     }
 }
