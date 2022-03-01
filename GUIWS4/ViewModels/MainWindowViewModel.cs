@@ -1,4 +1,5 @@
-﻿using GUIWS4.Models;
+﻿using GUIWS4.Logic;
+using GUIWS4.Models;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.DependencyInjection;
 using Microsoft.Toolkit.Mvvm.Input;
@@ -17,7 +18,7 @@ namespace GUIWS4.ViewModels
     public class MainWindowViewModel : ObservableRecipient
     {
         //LOGIC declaration
-
+        IHeroLogic logic;
         public ObservableCollection<SuperHero> Barrack { get; set; }
         public ObservableCollection<SuperHero> Army { get; set; }
 
@@ -50,19 +51,11 @@ namespace GUIWS4.ViewModels
         public ICommand RemoveFromArmyCommand { get; set; }
         public ICommand EditTrooperCommand { get; set; }
 
-        public int AllCost
-        {
-            get
-            {
-                return logic.AllCost;
-            }
-        }
-
         public double AVGPower
         {
             get
             {
-                return logic.AVGPower;
+                return logic.AvgPower;
             }
         }
 
@@ -70,7 +63,7 @@ namespace GUIWS4.ViewModels
         {
             get
             {
-                return logic.AVGSpeed;
+                return logic.AvgSpeed;
             }
         }
 
@@ -85,12 +78,12 @@ namespace GUIWS4.ViewModels
 
 
         public MainWindowViewModel()
-            :this(IsInDesignMode ? null : Ioc.Default.GetService<IArmyLogic>())
+            :this(IsInDesignMode ? null : Ioc.Default.GetService<IHeroLogic>())
         {
 
         }
 
-        public MainWindowViewModel(IArmyLogic logic)
+        public MainWindowViewModel(IHeroLogic logic)
         {
             this.logic = logic;
             Barrack = new ObservableCollection<SuperHero>();
@@ -130,7 +123,7 @@ namespace GUIWS4.ViewModels
             Army.Add(Barrack[2].GetCopy());
             Army.Add(Barrack[4].GetCopy());
 
-            logic.SetupCollections(Barrack, Army);
+            logic.SetupCollection(Barrack, Army);
 
             AddToArmyCommand = new RelayCommand(
                 () => logic.AddToArmy(SelectedFromBarracks),
@@ -143,7 +136,7 @@ namespace GUIWS4.ViewModels
                 );
 
             EditTrooperCommand = new RelayCommand(
-                () => logic.EditTrooper(SelectedFromBarracks),
+                () => logic.EditHero(SelectedFromBarracks),
                 () => SelectedFromBarracks != null
                 );
 
