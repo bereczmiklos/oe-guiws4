@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GUIWS4",
+    "\\GUIWS4\\ViewModels"
   ],
-  "SelectedNode": "\\GUIWS4.sln",
+  "SelectedNode": "\\GUIWS4\\ViewModels\\MainWindowViewModel.cs",
   "PreviewInSolutionExplorer": false
 }
