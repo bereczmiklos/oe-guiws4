@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GUIWS4.Logic
 {
-    public class HeroLogic
+    public class HeroLogic : IHeroLogic
     {
         IList<SuperHero> barrack;
         IList<SuperHero> army;
@@ -26,7 +26,7 @@ namespace GUIWS4.Logic
 
         public double AvgSpeed
         {
-            get { return Math.Round(army.Count == 0 ? 0 : army.Average(t=>t.Speed),2); }
+            get { return Math.Round(army.Count == 0 ? 0 : army.Average(t => t.Speed), 2); }
         }
 
         public void SetupCollection(IList<SuperHero> barrack, IList<SuperHero> army)

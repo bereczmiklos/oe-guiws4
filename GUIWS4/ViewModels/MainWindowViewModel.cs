@@ -1,4 +1,5 @@
-﻿using GUIWS4.Models;
+﻿using GUIWS4.Logic;
+using GUIWS4.Models;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.DependencyInjection;
 using Microsoft.Toolkit.Mvvm.Input;
@@ -85,12 +86,12 @@ namespace GUIWS4.ViewModels
 
 
         public MainWindowViewModel()
-            :this(IsInDesignMode ? null : Ioc.Default.GetService<IArmyLogic>())
+            :this(IsInDesignMode ? null : Ioc.Default.GetService<IHeroLogic>())
         {
 
         }
 
-        public MainWindowViewModel(IArmyLogic logic)
+        public MainWindowViewModel(IHeroLogic logic)
         {
             this.logic = logic;
             Barrack = new ObservableCollection<SuperHero>();
@@ -143,7 +144,7 @@ namespace GUIWS4.ViewModels
                 );
 
             EditTrooperCommand = new RelayCommand(
-                () => logic.EditTrooper(SelectedFromBarracks),
+                () => logic.EditHero(SelectedFromBarracks),
                 () => SelectedFromBarracks != null
                 );
 
