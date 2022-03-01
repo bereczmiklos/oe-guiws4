@@ -1,8 +1,16 @@
-﻿using System;
+﻿using GUIWS4.Models;
+using Microsoft.Toolkit.Mvvm.ComponentModel;
+using Microsoft.Toolkit.Mvvm.DependencyInjection;
+using Microsoft.Toolkit.Mvvm.Input;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Input;
 
 namespace GUIWS4.ViewModels
 {
@@ -10,12 +18,12 @@ namespace GUIWS4.ViewModels
     {
         //LOGIC declaration
 
-        public ObservableCollection<Trooper> Barrack { get; set; }
-        public ObservableCollection<Trooper> Army { get; set; }
+        public ObservableCollection<SuperHero> Barrack { get; set; }
+        public ObservableCollection<SuperHero> Army { get; set; }
 
         private SuperHero selectedFromBarracks;
 
-        public Trooper SelectedFromBarracks
+        public SuperHero SelectedFromBarracks
         {
             get { return selectedFromBarracks; }
             set 
@@ -26,9 +34,9 @@ namespace GUIWS4.ViewModels
             }
         }
 
-        private Trooper selectedFromArmy;
+        private SuperHero selectedFromArmy;
 
-        public Trooper SelectedFromArmy
+        public SuperHero SelectedFromArmy
         {
             get { return selectedFromArmy; }
             set
@@ -85,38 +93,38 @@ namespace GUIWS4.ViewModels
         public MainWindowViewModel(IArmyLogic logic)
         {
             this.logic = logic;
-            Barrack = new ObservableCollection<Trooper>();
-            Army = new ObservableCollection<Trooper>();
+            Barrack = new ObservableCollection<SuperHero>();
+            Army = new ObservableCollection<SuperHero>();
 
-            Barrack.Add(new Trooper()
+            Barrack.Add(new SuperHero()
             {
-                Type = "marine",
+                Name = "SpiderMan",
                 Power = 8,
+                Speed = 9
+            });
+            Barrack.Add(new SuperHero()
+            {
+                Name = "Thor",
+                Power = 10,
                 Speed = 6
             });
-            Barrack.Add(new Trooper()
+            Barrack.Add(new SuperHero()
             {
-                Type = "pilot",
-                Power = 7,
-                Speed = 3
-            });
-            Barrack.Add(new Trooper()
-            {
-                Type = "infantry",
-                Power = 6,
+                Name = "IronMan",
+                Power = 8,
                 Speed = 8
             });
-            Barrack.Add(new Trooper()
+            Barrack.Add(new SuperHero()
             {
-                Type = "sniper",
-                Power = 3,
+                Name = "Thanos",
+                Power = 10,
                 Speed = 3
             });
-            Barrack.Add(new Trooper()
+            Barrack.Add(new SuperHero()
             {
-                Type = "engineer",
-                Power = 5,
-                Speed = 6
+                Name = "Hulk",
+                Power = 10,
+                Speed = 2
             });
 
             Army.Add(Barrack[2].GetCopy());

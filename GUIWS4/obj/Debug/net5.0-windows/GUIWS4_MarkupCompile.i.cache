@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\obj\Debug\net5.0-windows\
+C:\Users\hallgato\source\repos\oe-guiws4\GUIWS4\obj\Debug\net5.0-windows\
 GUIWS4
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\App.xaml
-11407045341
+C:\Users\hallgato\source\repos\oe-guiws4\GUIWS4\App.xaml
+21876583572
 
-91534248510
-1941198498378
-MainWindow.xaml;
+101468636054
+194-419076014
+MainWindow.xaml;SuperHeroEditor.xaml;
 
-False
+True
 
