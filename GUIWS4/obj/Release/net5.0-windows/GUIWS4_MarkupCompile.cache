@@ -1,20 +1,20 @@
 ﻿GUIWS4
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\obj\Debug\net5.0-windows\
+C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\obj\Release\net5.0-windows\
 GUIWS4
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\App.xaml
 11407045341
 
-91534248510
+7-440972558
 1941198498378
 MainWindow.xaml;
 
-False
+True
 

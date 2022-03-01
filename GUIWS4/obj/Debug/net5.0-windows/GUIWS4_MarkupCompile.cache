@@ -1,5 +1,5 @@
 ﻿GUIWS4
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\App.xaml
 11407045341
 
-91534248510
+7-440972558
 1941198498378
 MainWindow.xaml;
 
-False
+True
 

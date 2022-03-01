@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IBT\\Desktop\\oe-gui\\GUIWS4\\GUIWS4\\GUIWS4.csproj": {}
+    "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IBT\\Desktop\\oe-gui\\GUIWS4\\GUIWS4\\GUIWS4.csproj": {
+    "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IBT\\Desktop\\oe-gui\\GUIWS4\\GUIWS4\\GUIWS4.csproj",
+        "projectUniqueName": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
         "projectName": "GUIWS4",
-        "projectPath": "C:\\Users\\IBT\\Desktop\\oe-gui\\GUIWS4\\GUIWS4\\GUIWS4.csproj",
+        "projectPath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
         "packagesPath": "C:\\Users\\IBT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IBT\\Desktop\\oe-gui\\GUIWS4\\GUIWS4\\obj\\",
+        "outputPath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IBT\\AppData\\Roaming\\NuGet\\NuGet.Config",

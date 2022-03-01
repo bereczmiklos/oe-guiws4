@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P2mzQ30zJMMOWRexo9yU9Rq7GAz8JoWMBpWnl6J/JpB7qIw1V6QcNRp2lH3RnR4ucw8vUlT1K/61196pehT3fg==",
+  "dgSpecHash": "uZKzy27mpxOF4yuhAM3Vp5/fLfZ2/NmlAxR0yW9RVgdkTZFPgd5zQw4yPZ0wbZZ39S4vZrrkadC+pfCOkqzwbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IBT\\Desktop\\oe-gui\\GUIWS4\\GUIWS4\\GUIWS4.csproj",
+  "projectFilePath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IBT\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
   ],
