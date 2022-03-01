@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUIWS4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Army Editor" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0"></ListBox>
+        <StackPanel Grid.Column="1">
+            <Label HorizontalAlignment="Center" FontSize="14" Content="540"
+                   ContentStringFormat="Cost: {0}$"/>
+            <Button Content="Add To Army" Margin="10" Padding="10"/>
+            <Button Content="Remove From Army" Margin="10" Padding="10"/>
+            <Button Content="Edit Trooper" Margin="10" Padding="10"/>
+            <Label HorizontalAlignment="Center" FontSize="14" Content="5"
+                   ContentStringFormat="Power: {0}"/>
+            <ProgressBar Height="20" Maximum="10" Minimum="0" Value="5" Margin="10"/>
+            <Label HorizontalAlignment="Center" FontSize="14" Content="5"
+                   ContentStringFormat="Speed: {0}"/>
+            <ProgressBar Height="20" Maximum="10" Minimum="0" Value="5" Margin="10"/>
+        </StackPanel>
+        <ListBox Grid.Column="2"></ListBox>
     </Grid>
 </Window>
