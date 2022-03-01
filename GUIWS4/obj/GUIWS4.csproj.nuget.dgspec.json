@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hallgato\\Source\\Repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {}
+    "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hallgato\\Source\\Repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {
+    "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hallgato\\Source\\Repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
+        "projectUniqueName": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
         "projectName": "GUIWS4",
-        "projectPath": "C:\\Users\\hallgato\\Source\\Repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
+        "projectPath": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
         "packagesPath": "C:\\Users\\hallgato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hallgato\\Source\\Repos\\oe-guiws4\\GUIWS4\\obj\\",
+        "outputPath": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
