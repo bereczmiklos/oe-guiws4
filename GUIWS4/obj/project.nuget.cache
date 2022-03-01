@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uZKzy27mpxOF4yuhAM3Vp5/fLfZ2/NmlAxR0yW9RVgdkTZFPgd5zQw4yPZ0wbZZ39S4vZrrkadC+pfCOkqzwbQ==",
+  "dgSpecHash": "2F1SR3XxLx760EhtnWfEXqQAq+qwnNzMKJ/B7YAaBWDxLrACIvtDSvbFI4elJ6QPrrVabiU/RlN9CoLsplcDPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
+  "projectFilePath": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\IBT\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
+    "C:\\Users\\hallgato\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

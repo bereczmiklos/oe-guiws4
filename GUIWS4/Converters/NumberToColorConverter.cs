@@ -9,7 +9,7 @@ using System.Windows.Media;
 
 namespace GUIWS4.Converters
 {
-    internal class NumberToColorConverter : IValueConverter
+    public class NumberToColorConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
