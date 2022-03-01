@@ -4,28 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\obj\Release\net5.0-windows\
-=======
-C:\Users\hallgato\Source\Repos\oe-guiws4\GUIWS4\obj\Release\net5.0-windows\
->>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
 GUIWS4
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-<<<<<<< HEAD
 C:\Users\IBT\Desktop\oe-gui\oe-guiws4\GUIWS4\App.xaml
 11407045341
 
 7-440972558
 1941198498378
-=======
-C:\Users\hallgato\Source\Repos\oe-guiws4\GUIWS4\App.xaml
-11407045341
-
-51087564214
-193-1891726104
->>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
 MainWindow.xaml;
 
 True

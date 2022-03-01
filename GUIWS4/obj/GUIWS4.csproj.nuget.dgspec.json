@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {}
   },
   "projects": {
@@ -13,29 +12,10 @@
         "projectPath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
         "packagesPath": "C:\\Users\\IBT\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\IBT\\Desktop\\oe-gui\\oe-guiws4\\GUIWS4\\obj\\",
-=======
-    "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
-        "projectName": "GUIWS4",
-        "projectPath": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\GUIWS4.csproj",
-        "packagesPath": "C:\\Users\\hallgato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hallgato\\source\\repos\\oe-guiws4\\GUIWS4\\obj\\",
->>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hallgato\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\IBT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -83,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

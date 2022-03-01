@@ -45,11 +45,7 @@ namespace GUIWS4 {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.2.0")]
-=======
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.13.0")]
->>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
         public void InitializeComponent() {
             
             #line 5 "..\..\..\App.xaml"
@@ -64,11 +60,7 @@ namespace GUIWS4 {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.2.0")]
-=======
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.13.0")]
->>>>>>> fbc1a0fad42e4bde900c6b62ae6338afe605b40f
         public static void Main() {
             GUIWS4.App app = new GUIWS4.App();
             app.InitializeComponent();
